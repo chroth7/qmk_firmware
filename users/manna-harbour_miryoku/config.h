@@ -35,3 +35,10 @@
 #define MOUSEKEY_MAX_SPEED      6
 #undef MOUSEKEY_TIME_TO_MAX
 #define MOUSEKEY_TIME_TO_MAX    64
+
+// chroth7
+// the following gives the corne logo
+// #define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
+// #define OLED_FONT_H "drivers/oled/glcdfont.c"
+#define OLED_FONT_H "keyboards/crkbd/keymaps/gotham/glcdfont.c"
+#define MASTER_LEFT
